@@ -1,0 +1,6 @@
+OLIMEX STM32-E407 modified to fit under the 10x10cm PCB size limit that is common with PCB batch services such as Itead Studio and Seeed Studios.
+
+- Moved the 3 BOOT headers inwards
+- Rotated the BOOT UART port 180 to allow better trace placement
+- Moved traces around the BOOT headers away from the PCB edge
+- Moved the resistors on the BOOT pins to allow for the new placement of the headers
